@@ -1,2 +1,6 @@
 /* reset style */
 @import url("reset.css");
+/* common style */
+@import url("common.css");
+/* header style */
+@import url("header.css");

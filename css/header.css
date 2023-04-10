@@ -35,7 +35,7 @@
 
 .menu__link {
 	font-weight: 700;
-	color: #FFF;
+	color: #EEE;
 	font-family: 'Roboto', sans-serif;
 	display: inline-block;
 	line-height: 1.5;
@@ -50,7 +50,7 @@
 	width: 0;
 	height: 0.125rem;
 	transition: all 0.3s;
-	background-color: #D4A373;
+	background-color: #C0FF00;
 }
 
 .menu__link.active::after,

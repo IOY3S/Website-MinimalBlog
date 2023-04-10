@@ -4,3 +4,7 @@
 @import url("common.css");
 /* header style */
 @import url("header.css");
+/* footer style */
+@import url("footer.css");
+/* HomePage style */
+@import url("homepage.css");

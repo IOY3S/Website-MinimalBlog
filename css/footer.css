@@ -1,0 +1,44 @@
+.footer {
+	background: #212121;
+	padding: 1.875rem 0;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	gap: 0.9375rem;
+	color: #EEE;
+	line-height: 1.28;
+}
+
+.footer__text {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.footer__text span {
+	color: #C0FF00;
+}
+
+.footer__up {
+	position: relative;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #C0FF00;
+}
+
+.footer__up::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0.125rem;
+	transition: all 0.3s;
+	background-color: #C0FF00;
+}
+
+.footer__up:hover::after {
+	width: 100%;
+	left: 0;
+}

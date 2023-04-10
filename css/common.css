@@ -1,8 +1,9 @@
 body {
-	color: #495057;
+	color: #212121;
 	font-family: Lora, serif;
 	font-size: 0.875rem;
-	background: #F8F9FA;
+	background: #C0C0C0;
+	display: flex;
 }
 
 /* ----------- */
@@ -20,3 +21,44 @@ body {
 	padding-right: 0.9375rem;
 	margin: 0 auto;
 }
+
+/* ----------- */
+main {
+	flex: 1 1 auto;
+}
+
+/* ----------- */
+.category {
+	background: rgba(255, 255, 255, 0.15);
+	border-radius: 0.5rem;
+	padding: 0.3125rem 0.625rem;
+	display: inline-block;
+	color: #C0FF00;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.625rem;
+	line-height: 1.2;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: all 0.3s;
+}
+
+.category:hover {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+/* ----------- */
+.title {
+	font-weight: 700;
+	font-size: 2.25rem;
+	line-height: 1.27;
+	color: #EEEEEE;
+}
+
+/* ----------- */
+.text {
+	font-size: 0.75rem;
+	line-height: 1.66;
+}
+
+/* ----------- */
+/* ----------- */

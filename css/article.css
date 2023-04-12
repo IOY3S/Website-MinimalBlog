@@ -1,0 +1,135 @@
+/* ----- section-one (big-post) ----- */
+.article__big-post {}
+
+/* ----- section-two (content) ----- */
+.article__content {
+	padding: 6.25rem 0 0 0;
+}
+
+.article__container {
+	display: grid;
+	align-items: start;
+	gap: 1.25rem;
+	grid-template-columns: 12.5rem 1fr 12.5rem;
+}
+
+.article__info {
+	display: flex;
+	gap: 0.4375rem;
+	align-items: center;
+	font-size: 0.75rem;
+	line-height: 2.08;
+	font-weight: 700;
+}
+
+.article__date {
+	display: flex;
+	gap: 0.4375rem;
+	align-items: center;
+}
+
+.article__date::after {
+	content: '';
+	height: 0.0625rem;
+	width: 2.1875rem;
+	background-color: #c0c0c0;
+}
+
+.article__time {}
+
+.article__body {
+	display: grid;
+	gap: 3.125rem;
+}
+
+.article__text {
+	display: grid;
+	gap: 1.875rem;
+	line-height: 1.78;
+}
+
+.article__text blockquote {
+	color: #C0FF00;
+	font-size: 2.25rem;
+	line-height: 1.27;
+	font-weight: 700;
+}
+
+.article__tags {
+	display: flex;
+	gap: 0.75rem;
+	flex-wrap: wrap;
+	border-bottom: 0.0625rem solid #c0c0c0;
+	padding-bottom: 3.125rem;
+}
+
+.article__tag {
+	color: #212121;
+	border: 0.0625rem solid #c0c0c0;
+}
+
+.article__author {}
+
+.author {
+	display: flex;
+	gap: 1.0625rem;
+}
+
+.author__avatar {
+	flex: 0 0 3.125rem;
+	height: 3.125rem;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.author__body {
+	display: grid;
+	align-self: center;
+	font-size: 0.75rem;
+	gap: 0.5rem;
+}
+
+.author__title {
+	font-weight: 700;
+}
+
+.author__skils {}
+
+@media (max-width: 991.98px) {
+	.article__content {
+		padding: 4.375rem 0;
+	}
+
+	.article__container {
+		grid-template-columns: 12.5rem 1fr;
+	}
+
+	.article__body {
+		gap: 1.875rem;
+	}
+
+	.article__tags {
+		padding-bottom: 1.875rem;
+	}
+
+	.article__text {
+		gap: 0.9375rem;
+	}
+
+	.article__text blockquote {
+		font-size: 1.5625rem;
+	}
+
+	@media (max-width: 767.98px) {
+		.article__content {
+			padding: 2.5rem 0;
+		}
+
+		.article__container {
+			grid-template-columns: auto;
+		}
+	}
+}
+
+/* ----- section-three (related) ----- */
+.article__related {}

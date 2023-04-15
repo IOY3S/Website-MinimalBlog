@@ -1,5 +1,5 @@
 .footer {
-	background: #212121;
+	background: #343A40;
 	padding: 1.875rem 0;
 }
 
@@ -7,7 +7,7 @@
 	display: flex;
 	justify-content: space-between;
 	gap: 0.9375rem;
-	color: #EEE;
+	color: #E5E5E5;
 	line-height: 1.28;
 }
 
@@ -16,15 +16,10 @@
 	font-weight: 700;
 }
 
-.footer__text span {
-	color: #C0FF00;
-}
-
 .footer__up {
 	position: relative;
 	font-size: 16px;
 	line-height: 1.5;
-	color: #C0FF00;
 }
 
 .footer__up::after {
@@ -35,7 +30,7 @@
 	width: 0;
 	height: 0.125rem;
 	transition: all 0.3s;
-	background-color: #C0FF00;
+	background-color: #D4A373;
 }
 
 .footer__up:hover::after {
